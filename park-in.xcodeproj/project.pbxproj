@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A103635129FE299B00ABE496 /* defaultRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635029FE299B00ABE496 /* defaultRegion.swift */; };
+		A103635329FE33C700ABE496 /* SearchBarMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635229FE33C700ABE496 /* SearchBarMap.swift */; };
+		A103635529FE3A3900ABE496 /* ParkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635429FE3A3900ABE496 /* ParkCard.swift */; };
 		FE5F955829FDBBF5002D0F9D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955729FDBBF5002D0F9D /* RegisterView.swift */; };
 		FE5F955B29FDC05E002D0F9D /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */; };
 		FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A103635029FE299B00ABE496 /* defaultRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultRegion.swift; sourceTree = "<group>"; };
+		A103635229FE33C700ABE496 /* SearchBarMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarMap.swift; sourceTree = "<group>"; };
+		A103635429FE3A3900ABE496 /* ParkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCard.swift; sourceTree = "<group>"; };
 		FE5F955729FDBBF5002D0F9D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodView.swift; sourceTree = "<group>"; };
 		FE5F956129FDD944002D0F9D /* LottieComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieComponent.swift; sourceTree = "<group>"; };
@@ -76,6 +82,7 @@
 			children = (
 				FE5F956F29FDFA27002D0F9D /* TextLimit.swift */,
 				FE5F957329FE041F002D0F9D /* locationManager.swift */,
+				A103635029FE299B00ABE496 /* defaultRegion.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -86,6 +93,8 @@
 				FE65EFAE29FDB56400F05C1E /* FormField.swift */,
 				FE65EFB129FDB5B600F05C1E /* PasswordField.swift */,
 				FE5F956129FDD944002D0F9D /* LottieComponent.swift */,
+				A103635229FE33C700ABE496 /* SearchBarMap.swift */,
+				A103635429FE3A3900ABE496 /* ParkCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -221,8 +230,11 @@
 				FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */,
 				FE65EFB229FDB5B600F05C1E /* PasswordField.swift in Sources */,
 				FEE68A9729FDA2A800B7D8B7 /* LoginView.swift in Sources */,
+				A103635129FE299B00ABE496 /* defaultRegion.swift in Sources */,
+				A103635329FE33C700ABE496 /* SearchBarMap.swift in Sources */,
 				FE5F956B29FDF3E6002D0F9D /* CardFormView.swift in Sources */,
 				FEE68A9529FDA2A800B7D8B7 /* park_inApp.swift in Sources */,
+				A103635529FE3A3900ABE496 /* ParkCard.swift in Sources */,
 				FE5F957229FE017D002D0F9D /* MainMapView.swift in Sources */,
 				FE5F957029FDFA27002D0F9D /* TextLimit.swift in Sources */,
 			);

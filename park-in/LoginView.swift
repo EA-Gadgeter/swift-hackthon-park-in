@@ -10,9 +10,10 @@ import SwiftUI
 struct LoginView: View {
     @State var email = ""
     @State var password = ""
+    @State var showLogin = true
     
     var body: some View {
-        NavigationView {
+        if(showLogin) {
             ZStack {
                 Color("GeneralBackground")
                     .ignoresSafeArea()
@@ -102,7 +103,7 @@ struct LoginView: View {
                         Text("Si no tienes una cuenta...")
                             .foregroundColor(.white)
                         
-                        NavigationLink(destination: RegisterView()) {
+                        Button(action: {showLogin.toggle()}) {
                             Text("Regístrate")
                                 .foregroundColor(.white)
                                 .font(.title3)
@@ -113,6 +114,9 @@ struct LoginView: View {
                     .padding(.horizontal, 25)
                 }
             }
+        } else {
+            RegisterView(showLogin: $showLogin)
+                .transition(.move(edge: .bottom))
         }
     }
 }

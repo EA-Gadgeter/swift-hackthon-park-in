@@ -10,6 +10,7 @@ import SwiftUI
 struct PayMethodView: View {
     @State var ppPress = false
     @State var cashPress = false
+    @Binding var showLogin: Bool
 
     var body: some View {
         ZStack {
@@ -26,7 +27,7 @@ struct PayMethodView: View {
                     .bold()
                     .padding(.bottom, 10)
                 
-                NavigationLink(destination: CardFormView()) {
+                NavigationLink(destination: CardFormView(showLogin: $showLogin)) {
                     HStack {
                         Image(systemName: "creditcard")
                             .font(.system(size: 40))
@@ -77,13 +78,17 @@ struct PayMethodView: View {
                     .font(.title2)
                     .cornerRadius(20)
                 }
+                
+                Button(action: {showLogin.toggle()}) {
+                    Text("Cancelar")
+                        .padding(12.5)
+                        .background(.red)
+                        .cornerRadius(20)
+                        .foregroundColor(.white)
+                        .bold()
+                }
+                .padding(.top, 30)
             }
         }
-    }
-}
-
-struct PayMethodView_Previews: PreviewProvider {
-    static var previews: some View {
-        PayMethodView()
     }
 }

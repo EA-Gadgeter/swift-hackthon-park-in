@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CardFormView: View {
     @State var cardNumber: String = ""
+    @Binding var showLogin: Bool
     
     var body: some View {
         ZStack {
@@ -63,13 +64,24 @@ struct CardFormView: View {
                         FormField(text: $cardNumber.max(5), icon: "signpost.right.fill", label: "CP")
                             .padding(.bottom, 25)
                         
-                        Button(action: {}) {
-                            Text("Continuar")
-                                .padding()
-                                .background(.white)
-                                .foregroundColor(.black)
-                                .bold()
-                                .cornerRadius(20)
+                        HStack {
+                            Button(action: {}) {
+                                Text("Continuar")
+                                    .padding()
+                                    .background(.white)
+                                    .foregroundColor(.black)
+                                    .bold()
+                                    .cornerRadius(20)
+                            }
+                            
+                            Button(action: {showLogin.toggle()}) {
+                                Text("Cancelar")
+                                    .padding(12.5)
+                                    .background(.red)
+                                    .cornerRadius(20)
+                                    .foregroundColor(.white)
+                                    .bold()
+                            }
                         }
                     }
                     .padding(.horizontal, 10)
@@ -78,11 +90,5 @@ struct CardFormView: View {
             }
             .padding(.horizontal, 25)
         }
-    }
-}
-
-struct CardFormView_Previews: PreviewProvider {
-    static var previews: some View {
-        CardFormView()
     }
 }
