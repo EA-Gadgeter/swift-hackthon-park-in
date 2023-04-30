@@ -43,6 +43,7 @@ struct PasswordField: View {
                     SecureField("", text: $password)
                         .padding(.leading, 10)
                         .foregroundColor(.white)
+                        .textInputAutocapitalization(.never)
                         .overlay(
                             Rectangle()
                                 .frame(height: 1.5)

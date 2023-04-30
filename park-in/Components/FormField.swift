@@ -31,6 +31,7 @@ struct FormField: View {
                 TextField("", text: $text)
                     .padding(.leading, 10)
                     .foregroundColor(.white)
+                    .textInputAutocapitalization(.never)
                     .overlay(
                         Rectangle()
                             .frame(height: 1.5)

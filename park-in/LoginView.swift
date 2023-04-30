@@ -6,11 +6,29 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
     @State var email = ""
     @State var password = ""
     @State var showLogin = true
+    @Binding var isAuth: Bool
+    
+    func login() {
+        Auth.auth().signIn(withEmail: email, password: password) {
+            authResult, error in
+            
+            if let error = error {
+                print(error)
+                return
+            }
+            
+            if let authResult = authResult {
+                print(authResult.user)
+                isAuth.toggle()
+            }
+        }
+    }
     
     var body: some View {
         if(showLogin) {
@@ -37,7 +55,7 @@ struct LoginView: View {
                         PasswordField(password: $password, label: "Contraseña")
                             .padding(.bottom, 10)
                         
-                        NavigationLink(destination: EmptyView()) {
+                        Button(action: {login()} ) {
                             HStack {
                                 Image(systemName: "arrow.right.circle.fill")
                                     .font(.system(size: 40))
@@ -115,14 +133,7 @@ struct LoginView: View {
                 }
             }
         } else {
-            RegisterView(showLogin: $showLogin)
-                .transition(.move(edge: .bottom))
+            RegisterView(showLogin: $showLogin, isAuth: $isAuth)
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
     }
 }

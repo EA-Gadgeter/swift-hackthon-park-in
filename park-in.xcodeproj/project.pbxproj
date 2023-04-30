@@ -10,6 +10,14 @@
 		A103635129FE299B00ABE496 /* defaultRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635029FE299B00ABE496 /* defaultRegion.swift */; };
 		A103635329FE33C700ABE496 /* SearchBarMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635229FE33C700ABE496 /* SearchBarMap.swift */; };
 		A103635529FE3A3900ABE496 /* ParkCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103635429FE3A3900ABE496 /* ParkCard.swift */; };
+		FE1547CA29FEE58A0037C18C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547C929FEE58A0037C18C /* MainView.swift */; };
+		FE1547CC29FEFE9F0037C18C /* SideBarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547CB29FEFE9F0037C18C /* SideBarMenu.swift */; };
+		FE1547CE29FF12570037C18C /* LogedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547CD29FF12570037C18C /* LogedUser.swift */; };
+		FE1547D029FF12FE0037C18C /* logedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547CF29FF12FE0037C18C /* logedUser.swift */; };
+		FE1547D229FF1B5D0037C18C /* ParkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547D129FF1B5D0037C18C /* ParkView.swift */; };
+		FE1547D429FF23EB0037C18C /* SelectPension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1547D329FF23EB0037C18C /* SelectPension.swift */; };
+		FE22E99529FEBF5E0083B078 /* registerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22E99429FEBF5E0083B078 /* registerInfo.swift */; };
+		FE22E99729FEC6E90083B078 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE22E99629FEC6E90083B078 /* GoogleService-Info.plist */; };
 		FE5F955829FDBBF5002D0F9D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955729FDBBF5002D0F9D /* RegisterView.swift */; };
 		FE5F955B29FDC05E002D0F9D /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */; };
 		FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */; };
@@ -24,6 +32,10 @@
 		FE5F957429FE041F002D0F9D /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F957329FE041F002D0F9D /* locationManager.swift */; };
 		FE65EFAF29FDB56400F05C1E /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65EFAE29FDB56400F05C1E /* FormField.swift */; };
 		FE65EFB229FDB5B600F05C1E /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65EFB129FDB5B600F05C1E /* PasswordField.swift */; };
+		FE868DD629FEBCD6008A99A7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE868DD529FEBCD6008A99A7 /* FirebaseAuth */; };
+		FE868DD829FEBCD6008A99A7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FE868DD729FEBCD6008A99A7 /* FirebaseFirestore */; };
+		FE868DDA29FEBCD6008A99A7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FE868DD929FEBCD6008A99A7 /* FirebaseFirestoreSwift */; };
+		FEB7565429FEE0B90040BC27 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB7565329FEE0B90040BC27 /* Auth.swift */; };
 		FEE68A9529FDA2A800B7D8B7 /* park_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */; };
 		FEE68A9729FDA2A800B7D8B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */; };
 		FEE68A9929FDA2A800B7D8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */; };
@@ -34,6 +46,14 @@
 		A103635029FE299B00ABE496 /* defaultRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = defaultRegion.swift; sourceTree = "<group>"; };
 		A103635229FE33C700ABE496 /* SearchBarMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarMap.swift; sourceTree = "<group>"; };
 		A103635429FE3A3900ABE496 /* ParkCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCard.swift; sourceTree = "<group>"; };
+		FE1547C929FEE58A0037C18C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FE1547CB29FEFE9F0037C18C /* SideBarMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarMenu.swift; sourceTree = "<group>"; };
+		FE1547CD29FF12570037C18C /* LogedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogedUser.swift; sourceTree = "<group>"; };
+		FE1547CF29FF12FE0037C18C /* logedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logedUser.swift; sourceTree = "<group>"; };
+		FE1547D129FF1B5D0037C18C /* ParkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkView.swift; sourceTree = "<group>"; };
+		FE1547D329FF23EB0037C18C /* SelectPension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPension.swift; sourceTree = "<group>"; };
+		FE22E99429FEBF5E0083B078 /* registerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerInfo.swift; sourceTree = "<group>"; };
+		FE22E99629FEC6E90083B078 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE5F955729FDBBF5002D0F9D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodView.swift; sourceTree = "<group>"; };
 		FE5F956129FDD944002D0F9D /* LottieComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieComponent.swift; sourceTree = "<group>"; };
@@ -47,6 +67,7 @@
 		FE5F957529FE07B3002D0F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FE65EFAE29FDB56400F05C1E /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		FE65EFB129FDB5B600F05C1E /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		FEB7565329FEE0B90040BC27 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		FEE68A9129FDA2A800B7D8B7 /* park-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "park-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = park_inApp.swift; sourceTree = "<group>"; };
 		FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -59,7 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE868DDA29FEBCD6008A99A7 /* FirebaseFirestoreSwift in Frameworks */,
 				FE5F955B29FDC05E002D0F9D /* iPhoneNumberField in Frameworks */,
+				FE868DD829FEBCD6008A99A7 /* FirebaseFirestore in Frameworks */,
+				FE868DD629FEBCD6008A99A7 /* FirebaseAuth in Frameworks */,
 				FE5F956029FDC9B6002D0F9D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE22E99329FEBF3B0083B078 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FE22E99429FEBF5E0083B078 /* registerInfo.swift */,
+				FE1547CF29FF12FE0037C18C /* logedUser.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		FE5F956329FDD9E2002D0F9D /* LottieFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +120,15 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		FE60FE4E29FEDFDB00CD2D70 /* states */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7565329FEE0B90040BC27 /* Auth.swift */,
+				FE1547CD29FF12570037C18C /* LogedUser.swift */,
+			);
+			path = states;
+			sourceTree = "<group>";
+		};
 		FE65EFAD29FDB54D00F05C1E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +137,8 @@
 				FE5F956129FDD944002D0F9D /* LottieComponent.swift */,
 				A103635229FE33C700ABE496 /* SearchBarMap.swift */,
 				A103635429FE3A3900ABE496 /* ParkCard.swift */,
+				FE1547CB29FEFE9F0037C18C /* SideBarMenu.swift */,
+				FE1547D329FF23EB0037C18C /* SelectPension.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -118,18 +162,23 @@
 		FEE68A9329FDA2A800B7D8B7 /* park-in */ = {
 			isa = PBXGroup;
 			children = (
+				FE22E99629FEC6E90083B078 /* GoogleService-Info.plist */,
 				FE5F957529FE07B3002D0F9D /* Info.plist */,
+				FE60FE4E29FEDFDB00CD2D70 /* states */,
+				FE22E99329FEBF3B0083B078 /* models */,
 				FE5F956C29FDF845002D0F9D /* Utilities */,
 				FE5F956329FDD9E2002D0F9D /* LottieFiles */,
 				FE65EFAD29FDB54D00F05C1E /* Components */,
 				FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */,
 				FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */,
 				FE5F955729FDBBF5002D0F9D /* RegisterView.swift */,
-				FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */,
-				FEE68A9A29FDA2A800B7D8B7 /* Preview Content */,
 				FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */,
 				FE5F956A29FDF3E6002D0F9D /* CardFormView.swift */,
 				FE5F957129FE017D002D0F9D /* MainMapView.swift */,
+				FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */,
+				FEE68A9A29FDA2A800B7D8B7 /* Preview Content */,
+				FE1547C929FEE58A0037C18C /* MainView.swift */,
+				FE1547D129FF1B5D0037C18C /* ParkView.swift */,
 			);
 			path = "park-in";
 			sourceTree = "<group>";
@@ -161,6 +210,9 @@
 			packageProductDependencies = (
 				FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */,
 				FE5F955F29FDC9B6002D0F9D /* Lottie */,
+				FE868DD529FEBCD6008A99A7 /* FirebaseAuth */,
+				FE868DD729FEBCD6008A99A7 /* FirebaseFirestore */,
+				FE868DD929FEBCD6008A99A7 /* FirebaseFirestoreSwift */,
 			);
 			productName = "park-in";
 			productReference = FEE68A9129FDA2A800B7D8B7 /* park-in.app */;
@@ -193,6 +245,7 @@
 			packageReferences = (
 				FE5F955929FDC05E002D0F9D /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
 				FE5F955E29FDC9B6002D0F9D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FE868DD429FEBCD6008A99A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = FEE68A9229FDA2A800B7D8B7 /* Products */;
 			projectDirPath = "";
@@ -213,6 +266,7 @@
 				FEE68A9929FDA2A800B7D8B7 /* Assets.xcassets in Resources */,
 				FE5F956529FDDABC002D0F9D /* 93653-b-school.json in Resources */,
 				FE5F956929FDF0C0002D0F9D /* cardsLottie.json in Resources */,
+				FE22E99729FEC6E90083B078 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,20 +277,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1547D429FF23EB0037C18C /* SelectPension.swift in Sources */,
 				FE5F956229FDD944002D0F9D /* LottieComponent.swift in Sources */,
 				FE65EFAF29FDB56400F05C1E /* FormField.swift in Sources */,
+				FE22E99529FEBF5E0083B078 /* registerInfo.swift in Sources */,
 				FE5F955829FDBBF5002D0F9D /* RegisterView.swift in Sources */,
 				FE5F957429FE041F002D0F9D /* locationManager.swift in Sources */,
 				FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */,
 				FE65EFB229FDB5B600F05C1E /* PasswordField.swift in Sources */,
+				FE1547CC29FEFE9F0037C18C /* SideBarMenu.swift in Sources */,
+				FE1547D029FF12FE0037C18C /* logedUser.swift in Sources */,
+				FEB7565429FEE0B90040BC27 /* Auth.swift in Sources */,
 				FEE68A9729FDA2A800B7D8B7 /* LoginView.swift in Sources */,
 				A103635129FE299B00ABE496 /* defaultRegion.swift in Sources */,
 				A103635329FE33C700ABE496 /* SearchBarMap.swift in Sources */,
+				FE1547CA29FEE58A0037C18C /* MainView.swift in Sources */,
 				FE5F956B29FDF3E6002D0F9D /* CardFormView.swift in Sources */,
 				FEE68A9529FDA2A800B7D8B7 /* park_inApp.swift in Sources */,
 				A103635529FE3A3900ABE496 /* ParkCard.swift in Sources */,
 				FE5F957229FE017D002D0F9D /* MainMapView.swift in Sources */,
 				FE5F957029FDFA27002D0F9D /* TextLimit.swift in Sources */,
+				FE1547D229FF1B5D0037C18C /* ParkView.swift in Sources */,
+				FE1547CE29FF12570037C18C /* LogedUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +521,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		FE868DD429FEBCD6008A99A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -471,6 +541,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE5F955E29FDC9B6002D0F9D /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		FE868DD529FEBCD6008A99A7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE868DD429FEBCD6008A99A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FE868DD729FEBCD6008A99A7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE868DD429FEBCD6008A99A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FE868DD929FEBCD6008A99A7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE868DD429FEBCD6008A99A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

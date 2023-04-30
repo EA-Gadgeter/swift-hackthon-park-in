@@ -13,6 +13,8 @@ struct MainMapView: View {
     @ObservedObject private var locationManager = LocationManager()
     @State private var region = MKCoordinateRegion.defaultRegion
     @State private var cancellable: AnyCancellable?
+    @State var showParkView: Bool = false
+    @State var menuOpened = false
     
     private func setCurrentLocation() {
         cancellable = locationManager.$location.sink {
@@ -21,19 +23,33 @@ struct MainMapView: View {
         }
     }
     
+    func toggleMenu() {
+        menuOpened.toggle()
+    }
+    
     var body: some View {
-        NavigationView {
+        if (showParkView){
+            ParkView(showParkView: $showParkView)
+                .transition(.move(edge: .bottom))
+        } else{
             ZStack {
-                /*if (locationManager.location != nil) {
-                    Map(coordinateRegion: $region, interactionModes: .all, showsUserLocation: true, userTrackingMode: nil)
-                } else {
-                    Text("Locating user location...")
-                }*/
                 Map(coordinateRegion: $region, interactionModes: .all, showsUserLocation: true, userTrackingMode: nil)
                     .ignoresSafeArea()
                 
                 VStack {
-                    SearchBarMap()
+                    HStack (){
+                        if(!menuOpened) {
+                            Button(action: {menuOpened.toggle()}) {
+                                Image(systemName: "line.horizontal.3")
+                                    .foregroundColor(.white)
+                                    .frame(width: 30, height: 30)
+                                    .background(.gray)
+                                    .clipShape(Circle())
+                            }
+                        }
+                        
+                        SearchBarMap()
+                    }
                     
                     Spacer()
                     
@@ -46,21 +62,24 @@ struct MainMapView: View {
                         
                         ScrollView {
                             VStack(spacing: 25) {
-                                ParkCard()
-                                ParkCard()
-                                ParkCard()
+                                ParkCard(showParkView: $showParkView)
+                                ParkCard(showParkView: $showParkView)
+                                ParkCard(showParkView: $showParkView)
                             }
                             .padding(.horizontal)
                         }
                         .scrollIndicators(.hidden)
                     }
                     .frame(height: 320)
-                    .background(Color("ParkCardScrollBackground"))
+                    .background(Color.gray)
                 }
+                
+                SideMenu(width: UIScreen.main.bounds.width / 1.2, menuOpened: $menuOpened, toggleMenu: toggleMenu)
+                    .ignoresSafeArea()
             }
             .onAppear {
                 //setCurrentLocation()
-        }
+            }
         }
     }
 }
