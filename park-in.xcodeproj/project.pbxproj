@@ -7,16 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5F955829FDBBF5002D0F9D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955729FDBBF5002D0F9D /* RegisterView.swift */; };
+		FE5F955B29FDC05E002D0F9D /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */; };
+		FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */; };
+		FE5F956029FDC9B6002D0F9D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FE5F955F29FDC9B6002D0F9D /* Lottie */; };
+		FE5F956229FDD944002D0F9D /* LottieComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F956129FDD944002D0F9D /* LottieComponent.swift */; };
+		FE5F956529FDDABC002D0F9D /* 93653-b-school.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5F956429FDDABC002D0F9D /* 93653-b-school.json */; };
+		FE5F956729FDE6FF002D0F9D /* 63800-car-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5F956629FDE6FF002D0F9D /* 63800-car-animation.json */; };
+		FE5F956929FDF0C0002D0F9D /* cardsLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = FE5F956829FDF0C0002D0F9D /* cardsLottie.json */; };
+		FE5F956B29FDF3E6002D0F9D /* CardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F956A29FDF3E6002D0F9D /* CardFormView.swift */; };
+		FE5F957029FDFA27002D0F9D /* TextLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F956F29FDFA27002D0F9D /* TextLimit.swift */; };
+		FE5F957229FE017D002D0F9D /* MainMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F957129FE017D002D0F9D /* MainMapView.swift */; };
+		FE5F957429FE041F002D0F9D /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5F957329FE041F002D0F9D /* locationManager.swift */; };
+		FE65EFAF29FDB56400F05C1E /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65EFAE29FDB56400F05C1E /* FormField.swift */; };
+		FE65EFB229FDB5B600F05C1E /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE65EFB129FDB5B600F05C1E /* PasswordField.swift */; };
 		FEE68A9529FDA2A800B7D8B7 /* park_inApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */; };
-		FEE68A9729FDA2A800B7D8B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE68A9629FDA2A800B7D8B7 /* ContentView.swift */; };
+		FEE68A9729FDA2A800B7D8B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */; };
 		FEE68A9929FDA2A800B7D8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */; };
 		FEE68A9C29FDA2A800B7D8B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE68A9B29FDA2A800B7D8B7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE5F955729FDBBF5002D0F9D /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodView.swift; sourceTree = "<group>"; };
+		FE5F956129FDD944002D0F9D /* LottieComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieComponent.swift; sourceTree = "<group>"; };
+		FE5F956429FDDABC002D0F9D /* 93653-b-school.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "93653-b-school.json"; sourceTree = "<group>"; };
+		FE5F956629FDE6FF002D0F9D /* 63800-car-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "63800-car-animation.json"; sourceTree = "<group>"; };
+		FE5F956829FDF0C0002D0F9D /* cardsLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cardsLottie.json; sourceTree = "<group>"; };
+		FE5F956A29FDF3E6002D0F9D /* CardFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFormView.swift; sourceTree = "<group>"; };
+		FE5F956F29FDFA27002D0F9D /* TextLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLimit.swift; sourceTree = "<group>"; };
+		FE5F957129FE017D002D0F9D /* MainMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapView.swift; sourceTree = "<group>"; };
+		FE5F957329FE041F002D0F9D /* locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.swift; sourceTree = "<group>"; };
+		FE5F957529FE07B3002D0F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE65EFAE29FDB56400F05C1E /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		FE65EFB129FDB5B600F05C1E /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
 		FEE68A9129FDA2A800B7D8B7 /* park-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "park-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = park_inApp.swift; sourceTree = "<group>"; };
-		FEE68A9629FDA2A800B7D8B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEE68A9B29FDA2A800B7D8B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,12 +53,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5F955B29FDC05E002D0F9D /* iPhoneNumberField in Frameworks */,
+				FE5F956029FDC9B6002D0F9D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5F956329FDD9E2002D0F9D /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FE5F956829FDF0C0002D0F9D /* cardsLottie.json */,
+				FE5F956629FDE6FF002D0F9D /* 63800-car-animation.json */,
+				FE5F956429FDDABC002D0F9D /* 93653-b-school.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		FE5F956C29FDF845002D0F9D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FE5F956F29FDFA27002D0F9D /* TextLimit.swift */,
+				FE5F957329FE041F002D0F9D /* locationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FE65EFAD29FDB54D00F05C1E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE65EFAE29FDB56400F05C1E /* FormField.swift */,
+				FE65EFB129FDB5B600F05C1E /* PasswordField.swift */,
+				FE5F956129FDD944002D0F9D /* LottieComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		FEE68A8829FDA2A800B7D8B7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +109,18 @@
 		FEE68A9329FDA2A800B7D8B7 /* park-in */ = {
 			isa = PBXGroup;
 			children = (
+				FE5F957529FE07B3002D0F9D /* Info.plist */,
+				FE5F956C29FDF845002D0F9D /* Utilities */,
+				FE5F956329FDD9E2002D0F9D /* LottieFiles */,
+				FE65EFAD29FDB54D00F05C1E /* Components */,
 				FEE68A9429FDA2A800B7D8B7 /* park_inApp.swift */,
-				FEE68A9629FDA2A800B7D8B7 /* ContentView.swift */,
+				FEE68A9629FDA2A800B7D8B7 /* LoginView.swift */,
+				FE5F955729FDBBF5002D0F9D /* RegisterView.swift */,
 				FEE68A9829FDA2A800B7D8B7 /* Assets.xcassets */,
 				FEE68A9A29FDA2A800B7D8B7 /* Preview Content */,
+				FE5F955C29FDC6CC002D0F9D /* PayMethodView.swift */,
+				FE5F956A29FDF3E6002D0F9D /* CardFormView.swift */,
+				FE5F957129FE017D002D0F9D /* MainMapView.swift */,
 			);
 			path = "park-in";
 			sourceTree = "<group>";
@@ -83,6 +149,10 @@
 			dependencies = (
 			);
 			name = "park-in";
+			packageProductDependencies = (
+				FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */,
+				FE5F955F29FDC9B6002D0F9D /* Lottie */,
+			);
 			productName = "park-in";
 			productReference = FEE68A9129FDA2A800B7D8B7 /* park-in.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,10 @@
 				Base,
 			);
 			mainGroup = FEE68A8829FDA2A800B7D8B7;
+			packageReferences = (
+				FE5F955929FDC05E002D0F9D /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				FE5F955E29FDC9B6002D0F9D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = FEE68A9229FDA2A800B7D8B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE68A9C29FDA2A800B7D8B7 /* Preview Assets.xcassets in Resources */,
+				FE5F956729FDE6FF002D0F9D /* 63800-car-animation.json in Resources */,
 				FEE68A9929FDA2A800B7D8B7 /* Assets.xcassets in Resources */,
+				FE5F956529FDDABC002D0F9D /* 93653-b-school.json in Resources */,
+				FE5F956929FDF0C0002D0F9D /* cardsLottie.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEE68A9729FDA2A800B7D8B7 /* ContentView.swift in Sources */,
+				FE5F956229FDD944002D0F9D /* LottieComponent.swift in Sources */,
+				FE65EFAF29FDB56400F05C1E /* FormField.swift in Sources */,
+				FE5F955829FDBBF5002D0F9D /* RegisterView.swift in Sources */,
+				FE5F957429FE041F002D0F9D /* locationManager.swift in Sources */,
+				FE5F955D29FDC6CC002D0F9D /* PayMethodView.swift in Sources */,
+				FE65EFB229FDB5B600F05C1E /* PasswordField.swift in Sources */,
+				FEE68A9729FDA2A800B7D8B7 /* LoginView.swift in Sources */,
+				FE5F956B29FDF3E6002D0F9D /* CardFormView.swift in Sources */,
 				FEE68A9529FDA2A800B7D8B7 /* park_inApp.swift in Sources */,
+				FE5F957229FE017D002D0F9D /* MainMapView.swift in Sources */,
+				FE5F957029FDFA27002D0F9D /* TextLimit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +355,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"park-in/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "park-in/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Esta aplicación requiere acceso a tu ubicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación requiere acceso a tu ubicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +386,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"park-in/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "park-in/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Esta aplicación requiere acceso a tu ubicación";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Esta aplicación requiere acceso a tu ubicación";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +429,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE5F955929FDC05E002D0F9D /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		FE5F955E29FDC9B6002D0F9D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE5F955A29FDC05E002D0F9D /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE5F955929FDC05E002D0F9D /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+		FE5F955F29FDC9B6002D0F9D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE5F955E29FDC9B6002D0F9D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEE68A8929FDA2A800B7D8B7 /* Project object */;
 }
